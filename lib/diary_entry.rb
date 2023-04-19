@@ -12,6 +12,7 @@ class DiaryEntry
   end
 
   def count_words
+    word_count1 = entry1
     # Returns the number of words in the contents as an integer
   end
 
