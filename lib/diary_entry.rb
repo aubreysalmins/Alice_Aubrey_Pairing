@@ -13,8 +13,7 @@ class DiaryEntry
   end
 
   def count_words
-    # word_count1 = entry1
-    # Returns the number of words in the contents as an integer
+    return @contents.split.size
   end
 
   def reading_time(wpm) # wpm is an integer representing
